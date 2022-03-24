@@ -1,0 +1,35 @@
+/*
+@FileName :   base.css    
+@Modify Time      @Author     @Version     
+------------     ---------    --------     
+ 2021-5-29       WuJieGang      V 1.0     
+@Contact  :   jiegangwu@hotmail.com
+@License  :      
+@Description: 公共样式表
+*/
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333333;
+    min-width: 1200px;
+}
+
+
+/*设置中间容器的宽度---版心*/
+.wrapper{
+    /*固定容器宽度*/
+    width: 1200px;
+    /*设定容器居中*/
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    /*color: #333333;*/
+}
