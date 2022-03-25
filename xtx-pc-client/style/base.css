@@ -34,7 +34,7 @@ body {
 /*设置中间容器的宽度---版心*/
 .wrapper {
     /*固定容器宽度*/
-    width: 1200px;
+    width: 1240px;
     /*设定容器居中*/
     margin: 0 auto;
 }
